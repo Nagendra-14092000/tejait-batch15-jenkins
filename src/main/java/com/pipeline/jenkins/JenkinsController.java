@@ -16,7 +16,7 @@ public class JenkinsController {
     }
     // comment
     @GetMapping("bye")
-    public String bye(){
+    public String byeJenkins(){
         return "bye jenkins";
     }
 }
