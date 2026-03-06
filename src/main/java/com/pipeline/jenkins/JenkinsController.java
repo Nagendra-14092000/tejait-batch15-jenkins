@@ -15,4 +15,8 @@ public class JenkinsController {
         return "hello jenkins";
     }
     // comment
+    @GetMapping("hi")
+    public String hi(){
+        return "hi nag";
+    }
 }
